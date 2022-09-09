@@ -1,21 +1,16 @@
 #include <stdio.h>
 
-/**
- * main -Prints 3 combination of numbers
- *
- * Return: Always (Success)
- */
 int main(void)
 {
 	int c, i, k;
 
-	for (c = '0'; c<= '9'; c++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		for (i = '0'; i<= '9'; i++)
+		for (i = '0'; i <= '9'; i++)
 		{
 			for (k = '0'; k <= '9'; k++)
 			{
-				if (c < i && I < k)
+				if (c < i && i < k)
 				{
 					putchar(c);
 					putchar(i);
@@ -34,3 +29,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
+}
