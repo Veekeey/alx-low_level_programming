@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _bs - calculate the absolutevalue of the number from zero.
+ * _bs - calculate the absolute value of the number from zero.
  * @i: the interger to be converted.
  * Return: absolute value of the input number.
  */
