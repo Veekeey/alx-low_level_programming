@@ -76,7 +76,7 @@ int _strlen(char *s)
  *
  * Return: the pointer to dest
  */
-char *strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int i;
 
