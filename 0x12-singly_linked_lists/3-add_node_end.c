@@ -6,7 +6,7 @@
 /**
  * add_node_end - Adds a new node at the end of a list
  * @head: The original linked list
- * @tr: The string to add to the node
+ * @str: The string to add to the node
  *
  * Return: The address of the new list or NULL if it failed
  */
