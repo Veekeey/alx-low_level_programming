@@ -3,7 +3,7 @@
 #include "lists.h"
 
 /**
- * ass_node - Adds a new node at the beginning of a list
+ * add_node - Adds a new node at the beginning of a list
  * @head: The original linked list
  * @str: The string to add to the node
  *
