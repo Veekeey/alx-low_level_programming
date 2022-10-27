@@ -3,12 +3,12 @@
 #include "main.h"
 
 /**
- * binary_to_unit - Converts a binary to an unsigned int
+ * binary_to_uint - Converts a binary to an unsigned int
  * @b: The binary string to convert
  *
  * Return: The positive number converted from a binary
  */
-unsigned int binary_to_unit(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	unsigned int len = 0, count = 0, sum = 0;
 

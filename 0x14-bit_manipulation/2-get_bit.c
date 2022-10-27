@@ -23,7 +23,7 @@ int get_bit(unsigned long int n, unsigned int index)
 				return (0);
 		}
 
-		n = n/2;
+		n = n / 2;
 		comp_i++;
 	}
 
